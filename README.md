@@ -4,5 +4,6 @@ Tareas UEA V
 Tarea 1 : Hola mundo de internet  
 Probando mi repo
 
-Tarea 2 : Mi portafolio. Fase 1
+Tarea 2 : Mi portafolio. 
+Fase 1
 
