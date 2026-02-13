@@ -6,4 +6,3 @@ Probando mi repo
 
 Tarea 2 : Mi portafolio. 
 Fase 1
-
