@@ -1,1 +1,0 @@
-console.log("Bienvenid@s al portafolio de Emilio Bodet")
