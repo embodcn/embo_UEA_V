@@ -1,31 +1,63 @@
-body{
-    background-color: #000; 
-    color: #FF0000;
-    font-size: 25px;
+body {
+    background-color: brown;
+    color: azure;
+}
+
+header {
+    background-color: bisque;
+    font-size: 30 px;
+    padding: 10px;
+}
+
+nav{
+    background-color: black;
+    padding: 10px;
+    font-size: 20px;
+}
+
+footer{
+    background-color: blue;
+    padding: 10px;
+    font-size: 15px;
 }
 
 h1{
-    color: #FF0000
-    ;
-
+    color: blueviolet;
 }
 
 p{
-    color: white;
-
+    color: aqua;
 }
 
-div{
-    background-color: blue;
-    padding: 20px;
-    border: 5px;
+div2{
+    background-color: blanchedalmond;
+    padding: 5px;
     border-style: solid;
-    border-color: gray;
-    margin: 50px;
-    border-radius: 15px;
-    
+    border-width: 5px;
+    border-color: beige;
+    border-radius: 10px;
+    margin-left: 10px;
 }
 
-img{
-        border-radius: 30px;
-    }
+.imgRound{
+    border-radius: 40%;
+    transform: rotate(90deg);
+
+}
+.imgSpace{
+    padding: 5px;
+}
+
+.fotos{
+    background-color: darkgreen;
+    background-color: darkkhaki;
+    border-style: none;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+a{
+    color: darkcyan;
+}
