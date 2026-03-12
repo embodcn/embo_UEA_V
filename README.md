@@ -1,5 +1,5 @@
 # embo_UEA_V
-Mis datos: Emilio Bodet Del Castillo Negrete. UEA V Comunicación creativa en la cultura digital. Licenciatura en Artes y comunicación digitales. 5to Trimestre.
+Mis datos: Emilio Bodet Del Castillo Negrete. UEA V Comunicación creativa en la cultura digital. Licenciatura en Arte y comunicación digitales. 5to Trimestre.
 ## Contenido
 Este repositorio contiene las asignaturas dadas de la UEA V: Comunicación creativa en la cultura digital. Se organizarán de acuerdo al tiempo determinado. Poco a poco se irán incorporando temas de interés y se irán añadiendo materiales personales que pueden ser de utilidad para toda la comunidad. El objetivo es crear un espacio de aprendizaje dinámico, enriqueciendo la colaboración y el conocimiento en red, ofreciendo herramientas prácticas que resulten de gran utilidad para la comunidad red y académica en su desarrollo personal. 
 ## Reflexión de mi relación con las tecnologías web 
