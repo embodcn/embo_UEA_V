@@ -1,24 +1,30 @@
 body {
-    background-color: brown;
-    color: white;
+    background-color: white;
+    color: black;
+    line-height: 1.6;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 20px;
 }
 
 header {
-    background-color: black;
+    background-color: white;
     font-size: 30px;
     padding: 10px;
 }
 
 nav{
-    background-color: brown;
+    background-color: black;
     padding: 10px;
     font-size: 20px;
+    text-align: center ;
 }
 
 footer{
     background-color: black;
     padding: 10px;
-    font-size: 15px;
+    font-size: 20px;
+    justify-content: right;
 }
 
 h1{
@@ -26,9 +32,21 @@ h1{
 }
 
 p{
-    color: white;
+    color: black;
+    font-size: 25px;
+    line-height: 1.6;
 }
 
+footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer p {
+    color: white;
+    font-size: 18px;
+}
 div2{
     background-color: brown;
     padding: 5px;
@@ -39,10 +57,10 @@ div2{
     margin-left: 10px;
 }
 
-.imgRound{
-    border-radius: 40%;
-    transform: rotate(90deg);
-
+.imgRound {
+    border-radius: 55%;
+    text-align: center;
+    justify-content: center;
 }
 .imgSpace{
     padding: 5px;
@@ -59,5 +77,94 @@ div2{
 }
 
 a{
-    color: rgb(248, 248, 248);
+    color: white;
 }
+
+.container div{
+
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 10px;
+}
+
+@media (max-width: 600px) {
+    .container{
+        flex-direction: column;
+    }
+}
+
+.fa{
+    color: white;
+    width: 60px;
+}
+
+.audiosound{
+    flex: 1 1 300px;
+    background-color: white;
+    border-left: 5px solid black;
+    padding: 25px;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.audiosound p {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #333;
+}
+
+.descripción {
+    margin-top: 20px;
+    padding-top: 15px;
+    border-top: 1px solid #ccc;
+}
+
+.descripción p {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #444;
+    text-align: justify;
+}
+
+.video-card {
+    flex: 1 1 450px;
+    background-color: black;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #333;
+}
+
+.video.responsive {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.video.responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.video.caption {
+    color: white;
+    font-size: 16px !important;
+    margin-top: 10px;
+    text-align: left;
+}
+

@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+
+header{
+background-color: white;
+padding: 4px;
+}
+nav{
+background-color: darkgoldenrod;
+padding: 4px
+}
+div{
+background-color: darkolivegreen;
+padding: 4px
+}
+footer{
+background-color: darkcyan;
+padding: 4px;
+}
+
+.fa{
+    color: white;
+}
